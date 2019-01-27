@@ -16,3 +16,6 @@ section_height = section_tiles_y * grid_size;// Height of 1 section in pixels
 room_width = (section_width * x_rooms) + (grid_size * 2);
 room_height = (section_height * y_rooms) + (grid_size * 2);
 
+for (_y = 0; _y < yrooms; _y++)
+ for (_x = 0; _x < xrooms; _x++)
+	rooms[_x, _y] = 0;
