@@ -202,7 +202,7 @@
             "Key": "e73ecd77-e2a8-4e43-9d91-54a9e86cc6bc",
             "Value": {
                 "id": "343c64da-f475-4118-ac35-63264abc9f58",
-                "resourcePath": "scripts\\Initialize_Room\\Initialize_Room.yy",
+                "resourcePath": "scripts\\initialize_room\\initialize_room.yy",
                 "resourceType": "GMScript"
             }
         },

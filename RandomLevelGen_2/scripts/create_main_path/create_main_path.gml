@@ -69,7 +69,7 @@ while (current_y <4)
 			}
 			else
 			{
-				++current;
+				++current_y;
 			}
 		}
 }
