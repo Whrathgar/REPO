@@ -17,7 +17,7 @@ while (current_y <4)
 			if (current_x > 0)
 			{
 				sections[--current_x, current_y] = 1;
-				new_direction = 0;
+				new_direction = choose(1, 1, 1, 3);
 			}
 			else
 			{
@@ -38,7 +38,7 @@ while (current_y <4)
 						if (current_x < 3)
 			{
 				sections[++current_x, current_y] = 1;		// Set room type to entrance left and entrance right
-				new_direction = 0;
+				new_direction = choose(2, 2, 2, 3);
 			}
 			else
 			{
