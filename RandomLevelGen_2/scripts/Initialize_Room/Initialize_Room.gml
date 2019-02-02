@@ -28,9 +28,13 @@ for (_y = 0; _y < y_sections; _y++)
 	show_debug_message(string(sections[0,_y]) + string(sections[1,_y]) + string(sections[2,_y]) + string(sections[3,_y]));
 
 // Initializing our sections (loading sections as strings into memory)
-
+initialize_all_sections();
 
 // Create our level
-
+generate_level();
 
 // Clean our memory (De-Initialize our sections)
+ds_list_destroy(section_lbr_list);
+ds_list_destroy(section_lr_list);
+ds_list_destroy(section_ltr_list);
+
