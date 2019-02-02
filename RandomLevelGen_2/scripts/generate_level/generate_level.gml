@@ -21,5 +21,7 @@ for (_y = 0; _y < y_sections; _y++)
 	for (_x = 0; _x < x_sections; _x++)
 	{
 		section_string_data = load_random_section(sections[_x, _y]);
+		
+		create_section_from_string(_x, _y, section_string_data);
 	}
 }	
