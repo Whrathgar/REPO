@@ -7,8 +7,8 @@ x_sections = 4; // How many rooms on x-axis
 y_sections = 4; //How many rooms on y-axis
 sections = []; // Declare our room's array
 
-section_tiles_x = 10; // how many grid spaces wide our section is
-section_tiles_y = 8; // how many grid spaces high our section is
+section_tiles_x = 15; // how many grid spaces wide our section is
+section_tiles_y = 12; // how many grid spaces high our section is
 
 section_width = section_tiles_x * grid_size; // Width of section in pixels
 section_height = section_tiles_y * grid_size;// Height of 1 section in pixels
