@@ -25,3 +25,4 @@ for (_y = 0; _y < y_sections; _y++)
 		create_section_from_string(_x, _y, section_string_data);
 	}
 }	
+
