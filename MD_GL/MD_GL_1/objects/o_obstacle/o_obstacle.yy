@@ -1,14 +1,14 @@
 {
-    "id": "c905079f-6039-4d87-a731-9def27e9a740",
+    "id": "e92b146f-ed5d-4050-b66e-fe680437b049",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_water",
+    "name": "o_obstacle",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "e92b146f-ed5d-4050-b66e-fe680437b049",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "96a861f6-698f-42a5-80c2-fe629cdae308",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
