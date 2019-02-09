@@ -15,7 +15,7 @@ y += (y_move - y) / 25;
 zoom += (move_zoom - zoom) * zoom_spd;
 
 //zooming
-camera_set_view_size(global.camera,original_width * zoom, original_height * zoom);
+camera_set_view_size(global.camera,original_width * .6, original_height * .6);
 
 view_w_half = camera_get_view_width(global.camera) * .5;
 view_h_half = camera_get_view_height(global.camera) * .5;
