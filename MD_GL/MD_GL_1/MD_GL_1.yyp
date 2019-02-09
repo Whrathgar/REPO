@@ -135,14 +135,6 @@
             }
         },
         {
-            "Key": "2b8f4de7-abf4-4bb8-b411-13db7acc37ee",
-            "Value": {
-                "id": "bc511ab4-fd7c-4b8f-baa5-dc7af0aab77d",
-                "resourcePath": "objects\\o_camera\\o_camera.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "36a035ad-2ace-4837-bfc6-95a810b6d0a5",
             "Value": {
                 "id": "ba7edd2c-88dc-429a-ac09-27ebb7b3c647",
@@ -572,6 +564,14 @@
                 "id": "9bb33a8d-1011-4936-8088-52de055460c3",
                 "resourcePath": "views\\b225a864-05d0-412c-905b-b8f73d3ffcd3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b9f22f09-0bbd-4541-b85f-eb3ca897a51a",
+            "Value": {
+                "id": "78b2d339-6ed1-4501-acfa-f20662b0418d",
+                "resourcePath": "objects\\o_camera\\o_camera.yy",
+                "resourceType": "GMObject"
             }
         },
         {

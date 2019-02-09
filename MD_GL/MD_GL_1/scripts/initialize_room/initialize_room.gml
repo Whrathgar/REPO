@@ -34,7 +34,6 @@ initialize_all_sections();
 generate_level();
 
 
-
 // Clean our memory (De-Initialize our sections)
 ds_list_destroy(section_lbr_list);
 ds_list_destroy(section_lr_list);

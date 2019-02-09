@@ -7,6 +7,3 @@ roll_speed = 3.5
 
 //Dependenceies
 input = instance_create_layer(0,0,"Instances",o_input);
-
-// create camera
-instance_create_layer(0, 0, "Instances", o_camera)
