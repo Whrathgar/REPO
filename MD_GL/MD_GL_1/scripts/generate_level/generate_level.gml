@@ -4,14 +4,14 @@
 // Generate border for room!
 for (_i = 0; _i < room_width; _i += grid_size)
 {
-	instance_create_layer(_i, 0, "Instances", o_block_perm);
-	instance_create_layer(_i, room_height - grid_size, "Instances", o_block_perm);
+	instance_create_layer(_i + (.5 * grid_size), (.5 * grid_size), "Instances", o_block_perm);
+	instance_create_layer(_i + (.5 * grid_size), room_height - (.5 * grid_size), "Instances", o_block_perm);
 }
 
 for (_i = grid_size; _i < room_height - grid_size; _i += grid_size)
 {
-	instance_create_layer(0, _i, "Instances", o_block_perm);
-	instance_create_layer(room_width - grid_size, _i, "Instances", o_block_perm);
+	instance_create_layer((.5 * grid_size), _i + (.5 * grid_size), "Instances", o_block_perm);
+	instance_create_layer(room_width - (.5 * grid_size), _i + (.5 * grid_size), "Instances", o_block_perm);
 }
 
 var section_string_data = "";

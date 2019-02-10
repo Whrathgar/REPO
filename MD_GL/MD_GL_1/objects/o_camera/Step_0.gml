@@ -22,7 +22,7 @@ view_h_half = camera_get_view_height(global.camera) * .5;
 
 //keep camera from leaving the room
 x = clamp(x,view_w_half, room_width - view_w_half);
-y = clamp(y,view_h_half, room_width - view_h_half);
+y = clamp(y,view_h_half, room_height - view_h_half);
 
 //update the camera position
 camera_set_view_pos(global.camera, x-view_w_half, y - view_h_half);
