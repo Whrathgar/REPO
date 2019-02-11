@@ -1,6 +1,7 @@
 event_inherited();
 ///@set variables
-image_speed = 0.4;
+sprite_index = s_player_front;
+image_speed = 0;
 state = "move";
 run_speed = 4;
 roll_speed = 3.5

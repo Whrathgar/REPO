@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "22f24371-785d-42a3-8035-ebee8882b49e",
+            "Value": {
+                "id": "a9011a0b-651e-4ddb-9354-d661a163f79f",
+                "resourcePath": "sprites\\s_player_back\\s_player_back.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25b6b305-bcaf-4f63-8b81-eebb9bbef241",
             "Value": {
                 "id": "211c1f2e-2e07-4901-ba2c-da3ce7d713e3",
@@ -255,6 +263,14 @@
             }
         },
         {
+            "Key": "4c8cc518-47e4-4ed7-b9de-318607d1c024",
+            "Value": {
+                "id": "a25cfc94-2e05-4f5b-83bc-a01a141931a3",
+                "resourcePath": "sprites\\s_test\\s_test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "50c7c802-aa97-4d73-908c-9f2747d8578e",
             "Value": {
                 "id": "0a8370bb-fbbe-4621-898b-addecadcfd5c",
@@ -347,6 +363,14 @@
             "Value": {
                 "id": "c85ef590-06ab-4396-abd7-ded1d703bff4",
                 "resourcePath": "sprites\\s_enemy_2\\s_enemy_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "81359caf-a727-4535-b986-671c04368339",
+            "Value": {
+                "id": "913ee193-f304-4bb8-b567-069affae7e29",
+                "resourcePath": "sprites\\s_player_right\\s_player_right.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -607,6 +631,14 @@
             }
         },
         {
+            "Key": "cb8703fa-3ea0-4279-9acc-4fb2679e3c4d",
+            "Value": {
+                "id": "d1d6fc94-9ad9-4b7c-b40e-46f0be1e9f17",
+                "resourcePath": "sprites\\s_player_front\\s_player_front.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cbd72796-d632-441d-ab9e-d0f054dfe7c9",
             "Value": {
                 "id": "dee5cd5a-beb1-4a97-9cda-918aff584509",
@@ -643,6 +675,14 @@
             "Value": {
                 "id": "6894cb9a-b38a-476a-be1b-2ce0facc6f7d",
                 "resourcePath": "views\\d2ab9733-94ce-4374-966f-8b46f38a5400.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d3211cf1-1470-4718-af30-a68f9a11b88e",
+            "Value": {
+                "id": "fc3e4187-081d-498b-a0da-d99efa64c4e8",
+                "resourcePath": "views\\d3211cf1-1470-4718-af30-a68f9a11b88e.yy",
                 "resourceType": "GMFolder"
             }
         },
