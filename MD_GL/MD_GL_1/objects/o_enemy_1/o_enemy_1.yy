@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_enemy_1",
     "eventList": [
-        
+        {
+            "id": "22b21b8c-46da-495a-abb4-6ab3adf4c853",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "36a035ad-2ace-4837-bfc6-95a810b6d0a5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
