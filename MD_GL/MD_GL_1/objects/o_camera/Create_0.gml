@@ -22,5 +22,10 @@ move_zoom = zoom; //zoom to move to
 zoom_spd = .05;
 
 //camera shake, accesed through o_screenshake
+shake_length = 0;
+shake_magnitude = 0;
+shake_remain = 0;
+
+
 shake_x = 0;
 shake_y = 0;

@@ -7,5 +7,8 @@ run_speed = 4;
 d_run_speed = sqrt(2*run_speed);
 roll_speed = 3.5
 
+//hold bow
+instance_create_layer(0,0,"Weapons",o_bow);
+
 //Dependenceies
 input = instance_create_layer(0,0,"Instances",o_input);

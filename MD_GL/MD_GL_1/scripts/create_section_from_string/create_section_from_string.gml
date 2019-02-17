@@ -34,7 +34,7 @@ for (c = 1; c < string_length(_section_string_data) + 1; c++)
 			{
 				instance_create_layer((_current_x_section * section_width) + (((c - 1) mod section_tiles_x) * grid_size) + (1.5 * grid_size), 
 										(_current_y_section * section_height) + (floor ((c - 1) / section_tiles_x) * grid_size) + (1.5 * grid_size),
-										"Instances", o_player);
+										"Player", o_player);
 			}
 			break;
 		
