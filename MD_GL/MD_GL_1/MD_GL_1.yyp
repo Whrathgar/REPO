@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "1790b71a-a1b0-4e5b-a5b0-c48c505868a0",
+            "Value": {
+                "id": "5d04f2c8-f128-4ea9-96d4-8e7755ccea47",
+                "resourcePath": "views\\1790b71a-a1b0-4e5b-a5b0-c48c505868a0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "1c116a12-9658-471c-bb69-b79feaf47694",
             "Value": {
                 "id": "f661b108-6a02-4b3a-b48e-2fc7ab7f2372",
@@ -327,6 +335,14 @@
             }
         },
         {
+            "Key": "5a1b014b-72c6-429a-ac57-1e58b91c6a23",
+            "Value": {
+                "id": "66878f92-b566-4d11-af42-857f82424b02",
+                "resourcePath": "sprites\\s_player_back_sword\\s_player_back_sword.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c7db402-f5c0-4372-a933-8dcc180f33ac",
             "Value": {
                 "id": "6d53ac8f-aab6-4895-83b0-b7e199454cff",
@@ -379,6 +395,14 @@
             "Value": {
                 "id": "38fe7b25-39e8-49c7-b0c2-a08ba3d64cad",
                 "resourcePath": "sprites\\s_enemy_1_front\\s_enemy_1_front.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "711ecc5e-b6b3-4f43-bff6-ad3204df1a93",
+            "Value": {
+                "id": "46968b04-5b01-4829-af6e-f29c7412f7e3",
+                "resourcePath": "sprites\\s_player_front_sword\\s_player_front_sword.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -532,6 +556,14 @@
                 "id": "557f440f-144f-43d9-b216-406db53e526a",
                 "resourcePath": "views\\93c5348d-da3a-45d6-ae35-bb003871e1a1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "956179ae-bbf7-4933-b78d-675197867ba5",
+            "Value": {
+                "id": "034bc36d-3244-4ef5-bdbb-a022770d42b9",
+                "resourcePath": "sprites\\s_player_right_sword\\s_player_right_sword.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -900,6 +932,14 @@
                 "id": "9be0ce8f-3b68-4c56-a325-372af697ad63",
                 "resourcePath": "sprites\\s_water\\s_water.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f9c8536d-3154-4e7b-9169-ccaa89ec678b",
+            "Value": {
+                "id": "2120fc01-f7b3-48ea-bc59-f66eba0843ee",
+                "resourcePath": "views\\f9c8536d-3154-4e7b-9169-ccaa89ec678b.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

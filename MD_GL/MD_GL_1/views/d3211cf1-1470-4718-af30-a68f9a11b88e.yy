@@ -4,9 +4,8 @@
     "mvc": "1.1",
     "name": "d3211cf1-1470-4718-af30-a68f9a11b88e",
     "children": [
-        "cb8703fa-3ea0-4279-9acc-4fb2679e3c4d",
-        "81359caf-a727-4535-b986-671c04368339",
-        "22f24371-785d-42a3-8035-ebee8882b49e"
+        "1790b71a-a1b0-4e5b-a5b0-c48c505868a0",
+        "f9c8536d-3154-4e7b-9169-ccaa89ec678b"
     ],
     "filterType": "GMSprite",
     "folderName": "player_char",
