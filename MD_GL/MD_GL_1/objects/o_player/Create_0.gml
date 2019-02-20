@@ -11,7 +11,7 @@ roll_speed = 3.5
 //instance_create_layer(0,0,"Weapons",o_bow);
 
 //hold sword
-instance_create_layer(0,0,"Weapons",o_sword);
+instance_create_layer(0,0,"Weapons",o_sword_passive);
 
 //Dependenceies
 input = instance_create_layer(0,0,"Instances",o_input);

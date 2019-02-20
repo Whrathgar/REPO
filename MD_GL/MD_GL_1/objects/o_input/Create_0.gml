@@ -11,7 +11,7 @@ left_up = (left and up);
 diagonal = (right_down or right_up or left_down or left_up);
 
 
-roll = keyboard_check_pressed(vk_space);
+dash = keyboard_check_pressed(vk_space);
 right_stop = (keyboard_check_released(vk_right) or keyboard_check_released(ord("D")));
 left_stop = (keyboard_check_released(vk_left) or keyboard_check_released(ord("A")));
 up_stop = (keyboard_check_released(vk_up) or keyboard_check_released(ord("W")));

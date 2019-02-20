@@ -183,6 +183,22 @@
             }
         },
         {
+            "Key": "36b4d4f6-4955-483d-aa66-a132c0c48274",
+            "Value": {
+                "id": "39e59fb2-bf2a-4e95-b71a-ed58fd28e14b",
+                "resourcePath": "objects\\o_sword_passive\\o_sword_passive.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "37f54d60-c2ac-40c1-929b-bcfed1b57f33",
+            "Value": {
+                "id": "c1b8fbae-045d-482a-bf89-a60af0f6f77c",
+                "resourcePath": "objects\\o_hitbox\\o_hitbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3a00e25a-0293-456d-97c2-0f24d57e932f",
             "Value": {
                 "id": "4efe7179-f4ed-4596-8196-b4948da8975f",
@@ -746,7 +762,7 @@
             "Key": "b4c61de9-3b4e-4400-a63e-3d35ee7340e6",
             "Value": {
                 "id": "cb39797b-8e6a-420e-881a-35679549eb7e",
-                "resourcePath": "objects\\o_sword\\o_sword.yy",
+                "resourcePath": "objects\\o_sword_dmg\\o_sword_dmg.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -860,6 +876,14 @@
                 "id": "58d53b0f-73f3-405b-b22d-6d8e0e17598d",
                 "resourcePath": "objects\\o_bow\\o_bow.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d70f4b19-2132-4b69-96ca-2d1babd0d5ef",
+            "Value": {
+                "id": "7806643e-a5eb-417c-93bc-6fb617aa3039",
+                "resourcePath": "scripts\\scr_create_hitbox\\scr_create_hitbox.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1029,6 +1053,7 @@
         "25b6b305-bcaf-4f63-8b81-eebb9bbef241",
         "963bd39a-78bc-4738-b605-e2cfce65cb28",
         "1ffdeb4a-7b25-4f1a-802c-e0b6d01c2abb",
+        "d70f4b19-2132-4b69-96ca-2d1babd0d5ef",
         "8e37f3e4-39ce-4401-937f-60f52e3d6da8"
     ],
     "tutorial": ""

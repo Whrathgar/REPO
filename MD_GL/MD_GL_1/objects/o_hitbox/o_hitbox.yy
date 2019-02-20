@@ -1,18 +1,28 @@
 {
-    "id": "b4c61de9-3b4e-4400-a63e-3d35ee7340e6",
+    "id": "37f54d60-c2ac-40c1-929b-bcfed1b57f33",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_sword",
+    "name": "o_hitbox",
     "eventList": [
         {
-            "id": "0a44ec29-e55e-4eda-9f9c-32b849e67992",
+            "id": "1b794231-9412-4d78-b6ee-6a9537da12ab",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "b4c61de9-3b4e-4400-a63e-3d35ee7340e6"
+            "eventtype": 0,
+            "m_owner": "37f54d60-c2ac-40c1-929b-bcfed1b57f33"
+        },
+        {
+            "id": "a3abf251-c5a2-4278-9188-f1c30bc7802e",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "48f1f035-a1c5-427b-8419-61512daea38e",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "37f54d60-c2ac-40c1-929b-bcfed1b57f33"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -34,5 +44,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "8b2bd1af-cfa8-4a0d-9a19-2d6e0428c396",
-    "visible": true
+    "visible": false
 }

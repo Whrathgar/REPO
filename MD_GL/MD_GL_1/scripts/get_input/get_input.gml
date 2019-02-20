@@ -19,5 +19,5 @@ up_stop = (keyboard_check_released(vk_up) or keyboard_check_released(ord("W")));
 down_stop = (keyboard_check_released(vk_down) or keyboard_check_released(ord("S")));
 
 
-roll = keyboard_check_pressed(vk_space);
+dash = keyboard_check_pressed(vk_space);
 attack = keyboard_check_pressed(vk_lcontrol);

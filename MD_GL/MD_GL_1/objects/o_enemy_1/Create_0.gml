@@ -1,4 +1,6 @@
 /// @description Initialize Variables
+
+event_inherited()
 hp = 10;
 max_hp = hp;
 sprite_index = s_enemy_1_front;
