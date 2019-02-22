@@ -12,7 +12,11 @@ if (dir == 90 or dir == 0 or dir == 180 or dir == 270)
 				y += v_dash;
 			}
 			
-			alarm[0] = room_speed/10;
+			
+			if alarm[0] <= 0
+			{
+				alarm[0] = room_speed/6;
+			}	
 		}
 		
 		if (dir == 45 or dir == 135 or dir == 225 or dir == 315)
@@ -29,5 +33,8 @@ if (dir == 90 or dir == 0 or dir == 180 or dir == 270)
 					y += v_dash;
 				}
 			
-			alarm[0] = room_speed/10;
+			if alarm[0] <= 0
+			{
+				alarm[0] = room_speed/6;
+			}
 		}
