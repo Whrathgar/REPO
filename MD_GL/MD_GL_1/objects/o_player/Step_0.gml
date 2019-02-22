@@ -220,10 +220,10 @@ switch (state)
 		}
 	
 	
-		//if  input.dash //keyboard_check_pressed(vk_space)
-		//{
-		//	state = "dash";
-		//}
+		if  input.dash //keyboard_check_pressed(vk_space)
+		{
+			state = "dash";
+		}
 		
 		if input.attack //keyboard_check_pressed(vk_lcontrol)
 		{
@@ -251,5 +251,14 @@ switch (state)
 			instance_destroy(o_sword_passive);
 		}	
 		#endregion
+		break;
 
+	case "dash":
+		
+		#region Move State
+		
+		
+		#endregion
+		break;
+	
 }
