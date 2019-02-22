@@ -17,6 +17,7 @@ switch (state)
 				o_sword_passive.image_angle = 0;
 				o_sword_passive.image_speed = 0;
 				o_sword_passive.image_index = 0;
+				dir = 0;
 				
 			}
 
@@ -44,6 +45,7 @@ switch (state)
 				o_sword_passive.image_angle = 180;
 				o_sword_passive.image_speed = 0;
 				o_sword_passive.image_index = 0;
+				dir = 180;
 			}
 
 			if input.left_stop
@@ -70,6 +72,7 @@ switch (state)
 				o_sword_passive.image_angle = 90;
 				o_sword_passive.image_speed = 0;
 				o_sword_passive.image_index = 0;
+				dir = 90;
 			}
 		
 			if input.up_stop
@@ -96,6 +99,7 @@ switch (state)
 				o_sword_passive.image_angle = 270;
 				o_sword_passive.image_speed = 0;
 				o_sword_passive.image_index = 0;
+				dir = 270;
 			}
 		
 			if input.down_stop
@@ -216,7 +220,26 @@ switch (state)
 				o_sword_passive.image_speed = 0;
 				o_sword_passive.image_index = 0;
 			}
-		
+			
+			if input.right_up
+			{
+				dir = 45;
+			}
+			
+			if input.left_up
+			{
+				dir = 135;
+			}
+			
+			if input.left_down
+			{
+				dir = 225;
+			}
+			
+			if input.right_down
+			{
+				dir = 315
+			}
 		}
 	
 	
@@ -233,6 +256,49 @@ switch (state)
 		#endregion
 		break;
 
+
+	case "dash":
+		
+		#region Dash State
+		scr_dash();
+		
+		//if (dir == 90 or dir == 0 or dir == 180 or dir == 270)
+		//{
+		//	h_dash = lengthdir_x(dash_speed,dir);
+		//	v_dash = lengthdir_y(dash_speed,dir);
+			
+		//	if not place_meeting(x + h_dash, y, o_block) and not place_meeting(x+ h_dash, y, o_block_perm)
+		//		{
+		//			x += h_dash;
+		//		}
+		//	if (not place_meeting(x, y+v_dash, o_block) and not place_meeting(x, y+v_dash, o_block_perm))
+		//	{
+		//		y += v_dash;
+		//	}
+			
+		//	alarm[0] = room_speed/10;
+		//}
+		
+		//if (dir == 45 or dir == 135 or dir == 225 or dir == 315)
+		//{
+		//	h_dash = lengthdir_x(d_dash_speed,dir);
+		//	v_dash = lengthdir_y(d_dash_speed,dir);
+			
+		//	if not place_meeting(x + h_dash, y, o_block) and not place_meeting(x+ h_dash, y, o_block_perm)
+		//		{
+		//			x += h_dash;
+		//		}
+		//	if (not place_meeting(x, y+v_dash, o_block) and not place_meeting(x, y+v_dash, o_block_perm))
+		//		{
+		//			y += v_dash;
+		//		}
+			
+		//	alarm[0] = room_speed/10;
+		//}
+		
+		
+		#endregion
+		break;
 
 	case "attack_one":
 		#region Attack One State
@@ -253,12 +319,7 @@ switch (state)
 		#endregion
 		break;
 
-	case "dash":
-		
-		#region Move State
-		
-		
-		#endregion
-		break;
+
 	
 }
+
