@@ -9,6 +9,10 @@ roll_speed = 3.5;
 dash_multiplyer = 2;
 dash_speed = dash_multiplyer * run_speed;
 d_dash_speed = dash_multiplyer * d_run_speed
+dash_frames = 8//(room_speed/6)
+water_dash_x = false;
+water_dash_y = false;
+
 
 dir = 0;
 
