@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_enemy_bullet_circle",
     "eventList": [
-        
+        {
+            "id": "b5ffdcef-bc25-4a90-ac3f-7339f58538c1",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "fa8cbed6-c5b4-4fa6-b584-96670abe19e1",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "fcbc1c84-988a-4e75-a20d-047c689ebfb5"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
