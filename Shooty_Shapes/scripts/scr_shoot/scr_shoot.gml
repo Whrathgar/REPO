@@ -8,7 +8,7 @@ var player_y = argument2
 
 if current_player_sprite = "s_mr_square"
 {
-	scr_screenshake(1,5);
+	scr_screenshake(3,5);
 	with (instance_create_layer(player_x,player_y,"Instances",o_player_bullet_square))
 	{
 		speed = 10;
@@ -19,7 +19,7 @@ if current_player_sprite = "s_mr_square"
 
 if current_player_sprite = "s_mr_circle"
 {
-	scr_screenshake(1,5);
+	scr_screenshake(3,5);
 	with (instance_create_layer(player_x,player_y,"Instances",o_player_bullet_circle))
 	{
 		speed = 10;
@@ -30,7 +30,7 @@ if current_player_sprite = "s_mr_circle"
 
 if current_player_sprite = "s_mr_diamond"
 {
-	scr_screenshake(1,5);
+	scr_screenshake(3,5);
 	with (instance_create_layer(player_x,player_y,"Instances",o_player_bullet_diamond))
 	{
 		speed = 10;

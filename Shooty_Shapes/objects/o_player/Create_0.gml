@@ -9,6 +9,8 @@ firingdelay = 0;
 
 //Dependenceies
 input = instance_create_layer(0,0,"Instances",o_input);
+//create crosshair
+instance_create_layer(0,0,"Player",o_crosshair);
 //if !instance_exists(o_camera)
 //{
 //	instance_create_layer(o_player.x,o_player.y,"Instances",o_camera);
