@@ -1,5 +1,5 @@
 /// @description Shoot Correct Shape at player
-if instance_exists(o_player)
+if instance_exists(o_player) and collision_line(self.x,self.y,o_player.x,o_player.y,o_wall,false,true) == noone
 	{
 	switch (self.sprite_index)
 	{

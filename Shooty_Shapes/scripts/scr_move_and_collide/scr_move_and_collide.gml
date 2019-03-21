@@ -13,3 +13,5 @@ if not place_meeting(x, y+yspeed, o_obstacle_parent)
 {
 	y += yspeed;
 }
+
+

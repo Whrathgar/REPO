@@ -2,7 +2,7 @@
 randomize()
 sprite_index = choose(s_mr_circle, s_mr_diamond,s_mr_square);
 state = "move";
-run_speed = 4;
+run_speed = 5;
 d_run_speed = sqrt(2*run_speed);
 
 firingdelay = 0;
