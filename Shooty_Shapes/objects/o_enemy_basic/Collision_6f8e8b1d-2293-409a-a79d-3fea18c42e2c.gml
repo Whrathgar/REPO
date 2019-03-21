@@ -3,6 +3,7 @@ switch (self.sprite_index)
 {
 	case s_enemy_square:
 	instance_destroy(other);
+	scr_screenshake(10,20);
 	repeat(irandom_range(2,7))
 		{
 			instance_create_layer(self.x,self.y,"Instances",o_enemy_bullet_square)
