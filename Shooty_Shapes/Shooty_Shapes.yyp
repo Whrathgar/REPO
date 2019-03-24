@@ -63,6 +63,22 @@
             }
         },
         {
+            "Key": "08f256a3-9947-4947-a108-a45b31ecd7a6",
+            "Value": {
+                "id": "287571b4-b932-41e6-adce-7903706d3a17",
+                "resourcePath": "objects\\o_player_bullet_square_rotate\\o_player_bullet_square_rotate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "09beba72-04d0-4e7d-8d22-d22d411ff3b9",
+            "Value": {
+                "id": "10e09de9-0967-49b7-96dc-190dede22b7f",
+                "resourcePath": "objects\\o_aiming\\o_aiming.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "13a049d1-2f3d-4c82-b61c-745e28a244a6",
             "Value": {
                 "id": "5ce5c530-0d3b-4709-a12c-1b20a8360bc8",
@@ -100,6 +116,14 @@
                 "id": "f4e59d27-2c7f-4b5b-9240-b5b02cd798aa",
                 "resourcePath": "views\\1c5ecdfd-62a1-4482-819c-4e5dd1d4497b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "235683d0-2973-4202-aab1-d89e2d8c0603",
+            "Value": {
+                "id": "f3b1a5e0-bfc1-4143-9092-1532da5141c8",
+                "resourcePath": "objects\\o_enemy_counter\\o_enemy_counter.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -199,6 +223,14 @@
             }
         },
         {
+            "Key": "44d110ba-eb69-4943-8755-768ea376d5af",
+            "Value": {
+                "id": "a163fa80-f74d-4a46-b264-ad915f1c4d70",
+                "resourcePath": "objects\\o_enemy_basic_2\\o_enemy_basic_2.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a8ddec5-c0c3-4804-b154-5cc094dd8e3a",
             "Value": {
                 "id": "4d44dd2d-2591-43d1-8a97-65210137bac5",
@@ -227,6 +259,14 @@
             "Value": {
                 "id": "f26684d6-0cdd-467f-92b3-20447c5518dc",
                 "resourcePath": "objects\\o_player_bullet_circle\\o_player_bullet_circle.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4f8f248b-e9b6-4687-a208-7013910b3477",
+            "Value": {
+                "id": "29e760ca-18d5-4d48-a91d-cc7b336203c7",
+                "resourcePath": "objects\\o_player_bullet_circle_rotate\\o_player_bullet_circle_rotate.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -399,6 +439,14 @@
             }
         },
         {
+            "Key": "828c9300-73f8-4169-826c-c6c93621902f",
+            "Value": {
+                "id": "2acabb38-051d-4c6e-955d-90df59867688",
+                "resourcePath": "objects\\o_restart\\o_restart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "5b0c68ec-df2d-43dd-afd5-631f1431a998",
@@ -415,11 +463,35 @@
             }
         },
         {
+            "Key": "89bcc492-a33c-4c78-a85d-d0785cee2e36",
+            "Value": {
+                "id": "506f83e8-76ff-49c3-9acf-8ca8d0e4854f",
+                "resourcePath": "objects\\o_player_bullet_diamond_rotate\\o_player_bullet_diamond_rotate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8ac83514-4bbf-4cab-8a15-ca3b0454675f",
             "Value": {
                 "id": "d7ce8b54-5a3d-46ac-b6f8-d91101f8bca9",
                 "resourcePath": "sprites\\s_bullet_player_circle\\s_bullet_player_circle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8de35d7b-595d-430f-9958-3bfbb9299005",
+            "Value": {
+                "id": "138a0986-8f29-441b-9374-4bbc6b3d0dd3",
+                "resourcePath": "objects\\o_enemy_bullet_circle_rotate\\o_enemy_bullet_circle_rotate.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8e46d01a-030f-4844-b52a-831fe3b00871",
+            "Value": {
+                "id": "7cc71cd9-e3de-423d-9e02-d1064c594b16",
+                "resourcePath": "objects\\o_enemy_bullet_square_rotate\\o_enemy_bullet_square_rotate.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -647,6 +719,14 @@
             }
         },
         {
+            "Key": "e7bd9148-d80b-4bf6-998d-b7e2d6acd675",
+            "Value": {
+                "id": "aa971d71-8d1a-4059-a9a7-fc9a609af5be",
+                "resourcePath": "sprites\\s_aiming\\s_aiming.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e85c9b4f-89c2-4000-b46c-bb56c84762d6",
             "Value": {
                 "id": "12d93f94-a173-4315-ab0e-d63a33f82cc5",
@@ -660,6 +740,14 @@
                 "id": "2441ab7d-1d53-494d-9f1e-4ac5561d3bdd",
                 "resourcePath": "rooms\\room_gen\\room_gen.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ec7e179a-d393-4699-a57b-b31e34292bc8",
+            "Value": {
+                "id": "50350562-f01c-4021-9d17-1a01b7cd11d2",
+                "resourcePath": "objects\\o_enemy_bullet_diamond_rotate\\o_enemy_bullet_diamond_rotate.yy",
+                "resourceType": "GMObject"
             }
         },
         {

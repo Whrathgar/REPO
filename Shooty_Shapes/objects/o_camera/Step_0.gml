@@ -32,3 +32,15 @@ camera_set_view_pos(global.camera, x-view_w_half, y - view_h_half);
 x += random_range(-shake_remain, shake_remain);
 y += random_range(-shake_remain, shake_remain);
 shake_remain = max(0, shake_remain - ((1/shake_length) * shake_magnitude));
+
+if (keyboard_check(vk_alt) and keyboard_check_released(vk_enter))
+{
+	if window_get_fullscreen()
+	{
+		window_set_fullscreen(false);
+	}
+	else
+	{
+		window_set_fullscreen(true);
+	}
+}

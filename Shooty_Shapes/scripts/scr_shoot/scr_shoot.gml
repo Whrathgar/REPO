@@ -14,7 +14,7 @@ if current_player_sprite = "s_mr_square"
 		speed = 10;
 		direction = point_direction(player_x,player_y,mouse_x + random_range(-3,3), mouse_y + random_range(-3,3))
 	}
-	alarm[0] = 20;
+	alarm[0] = 10;
 }
 
 if current_player_sprite = "s_mr_circle"
@@ -25,7 +25,7 @@ if current_player_sprite = "s_mr_circle"
 		speed = 10;
 		direction = point_direction(player_x,player_y,mouse_x + random_range(-3,3), mouse_y + random_range(-3,3))
 	}
-	alarm[0] = 20;
+	alarm[0] = 10;
 }
 
 if current_player_sprite = "s_mr_diamond"
@@ -36,7 +36,7 @@ if current_player_sprite = "s_mr_diamond"
 		speed = 10;
 		direction = point_direction(player_x,player_y,mouse_x + random_range(-3,3), mouse_y + random_range(-3,3))
 	}
-	alarm[0] = 20;
+	alarm[0] = 10;
 }
 
 audio_play_sound(snd_bullet_shoot,2,false)
