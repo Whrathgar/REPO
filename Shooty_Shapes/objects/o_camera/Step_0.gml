@@ -1,3 +1,5 @@
+window_set_fullscreen(true);
+
 ///@description Update Camera
 if !instance_exists(follow) exit;
 
