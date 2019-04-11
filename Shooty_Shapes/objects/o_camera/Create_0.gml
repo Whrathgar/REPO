@@ -1,3 +1,5 @@
+
+window_set_fullscreen(true);
 /// @description Initialize Variables
 /// @description create a blank camera and assign global variables
 global.camera = camera_create_view(0,0,1200,960);
