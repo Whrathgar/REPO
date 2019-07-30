@@ -25,6 +25,13 @@ canjump -= 1;
 //if (place_meeting(x,y+1,oWall)) && (key_jump)
 if (canjump > 0) && (key_jump)
 {
+	repeat(5)
+	{
+		with(instance_create_layer(x,bbox_bottom,"Player",oDust))
+		{
+			vsp = 0;
+		}
+	}
 	vsp = -7;
 	canjump = 0;
 }
@@ -61,7 +68,19 @@ if (!place_meeting(x,y+1,oWall) && !place_meeting(x,y+1,oCrate))
 else
 {
 	canjump = 10;
-	if(sprite_index == sPlayerA) audio_play_sound(snLanding,4,false);
+	if(sprite_index == sPlayerA) 
+	{
+		audio_sound_pitch(snLanding,choose(0.8,1.0,1.2));
+		audio_play_sound(snLanding,4,false);
+		repeat(5)
+		{
+			with(instance_create_layer(x,bbox_bottom,"Player",oDust))
+			{
+				vsp = 0;
+			}
+		}
+	
+	}
 	image_speed = 1;
 	if (hsp == 0)
 	{
