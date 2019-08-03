@@ -1,4 +1,9 @@
 /// @desc Step
+if(hp <= 0)
+	{
+		instance_destroy();
+	}
+
 if (hascontrol)
 {
 	key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
@@ -15,7 +20,7 @@ else
 }
 
 //calculate movement
-var hmove = key_right - key_left;
+var hmove = key_right - (1.1 * key_left);
 var vmove = key_down - key_up;
 
 hsp = hmove * flyspd;
@@ -23,3 +28,20 @@ vsp = vmove * flyspd;
 
 x = x + hsp;
 y = y + vsp;
+
+//draw_self();
+
+if (flash > 0)
+{
+	flash--;
+	shader_set(shWhite);
+	//draw_self();
+	shader_reset();
+}
+
+firingdelay = firingdelay - 1;
+if keyboard_check(vk_space) && firingdelay <=0
+{
+	instance_create_layer(x,y,"Bullets",oBullet_1);
+	firingdelay = 5;
+}
