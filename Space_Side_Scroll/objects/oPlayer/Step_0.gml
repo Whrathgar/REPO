@@ -14,6 +14,8 @@ if(hp <= 0)
 			{
 				image_angle = random_range(0,360);
 			}
+		audio_sound_pitch(sndExplo_1,choose(.8,1,1.2));
+		audio_play_sound(sndExplo_1,1,false);
 		instance_destroy();
 	}
 
@@ -56,6 +58,8 @@ firingdelay = firingdelay - 1;
 if (keyboard_check(vk_space) or (mouse_check_button(mb_left))) && firingdelay <=0
 {
 	instance_create_layer(x,y,"Bullets",oBullet_1);
+	audio_sound_pitch(sndGun_1,choose(.8,1,1.2));
+	audio_play_sound(sndGun_1,1,false);
 	firingdelay = 5;
 }
 

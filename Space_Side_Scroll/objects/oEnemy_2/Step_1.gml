@@ -14,6 +14,8 @@ if hp <= 0
 	{
 		image_angle = random_range(0,360);
 	}
+	audio_sound_pitch(sndExplo_1,choose(.5,1,1.5));
+	audio_play_sound(sndExplo_1,1,false);
 	instance_destroy();
 }
 
