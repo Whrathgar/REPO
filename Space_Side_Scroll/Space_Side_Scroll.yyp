@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1192e00b-cfaf-4f69-a186-76138a145ff3",
+            "Value": {
+                "id": "b1a77fe8-f80f-49fd-873d-7361ddaae73b",
+                "resourcePath": "objects\\oAfterBurner\\oAfterBurner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "140921f5-6b63-40c3-83f0-95c90b085b8a",
             "Value": {
                 "id": "a8bd83d5-0acb-4141-a062-362fa3db472c",
@@ -71,6 +79,14 @@
             }
         },
         {
+            "Key": "2f344b22-cd29-4a77-aeb7-813e84b34084",
+            "Value": {
+                "id": "a4276104-c454-420e-8a64-a01f4e15a645",
+                "resourcePath": "sprites\\s_afterburner\\s_afterburner.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3293495a-9818-40c2-a6c7-1129a6908955",
             "Value": {
                 "id": "52614a88-1a3d-4d2c-907f-607c239e7bee",
@@ -79,10 +95,26 @@
             }
         },
         {
+            "Key": "3711e73f-961f-46e8-b0f9-388f2930a86e",
+            "Value": {
+                "id": "23c09889-0d9b-4e12-b880-e499311e9a43",
+                "resourcePath": "sprites\\sExplosion\\sExplosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3a226ead-e06a-4e54-9de5-8e658e7ac9bc",
             "Value": {
                 "id": "7e5c3357-e3d5-4b5f-904d-265c1f379db1",
                 "resourcePath": "objects\\oSpawner\\oSpawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3df6d3db-1aa5-4188-81ce-defadd1931ee",
+            "Value": {
+                "id": "87632994-6ec1-456b-9515-a61a93c7b798",
+                "resourcePath": "objects\\oAfterBurner_E1\\oAfterBurner_E1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -195,6 +227,14 @@
             "Value": {
                 "id": "beef0694-1d70-43ae-9d95-a18d99282203",
                 "resourcePath": "objects\\oRestart\\oRestart.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8fc0636a-bb5b-4294-8a7c-8ead575bf4c9",
+            "Value": {
+                "id": "fc938ad8-7918-48df-a071-4fe8a1d77d09",
+                "resourcePath": "objects\\oExplosion\\oExplosion.yy",
                 "resourceType": "GMObject"
             }
         },

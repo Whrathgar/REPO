@@ -45,3 +45,11 @@ if keyboard_check(vk_space) && firingdelay <=0
 	instance_create_layer(x,y,"Bullets",oBullet_1);
 	firingdelay = 5;
 }
+
+//Create engine trail
+with (instance_create_layer(x-35,y+random_range(-2,2),"Player",oAfterBurner))
+{
+	vsp = 0
+}
+
+
