@@ -21,7 +21,6 @@ if (x < -100) or (x > room_width + 100)
 {
 	instance_destroy();
 }
-
 if (y < -100) or (y > room_height + 100)
 {
 	instance_destroy();

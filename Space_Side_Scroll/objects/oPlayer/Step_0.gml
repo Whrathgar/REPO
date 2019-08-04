@@ -1,6 +1,19 @@
 /// @desc Step
+randomize();
 if(hp <= 0)
-	{
+	{		
+		with (instance_create_layer(x + random_range(-2,2),y + random_range(-2,2), "Player",oExplosion))
+			{
+				image_angle = random_range(0,360);
+			}
+		with (instance_create_layer(x + random_range(-2,2),y + random_range(-2,2), "Player",oExplosion))
+			{
+				image_angle = random_range(0,360);
+			}
+		with (instance_create_layer(x + random_range(-2,2),y + random_range(-2,2), "Player",oExplosion))
+			{
+				image_angle = random_range(0,360);
+			}
 		instance_destroy();
 	}
 
@@ -40,7 +53,7 @@ if (flash > 0)
 }
 
 firingdelay = firingdelay - 1;
-if keyboard_check(vk_space) && firingdelay <=0
+if (keyboard_check(vk_space) or (mouse_check_button(mb_left))) && firingdelay <=0
 {
 	instance_create_layer(x,y,"Bullets",oBullet_1);
 	firingdelay = 5;

@@ -1,3 +1,4 @@
+randomize();
 x = room_width
 y = 0;
 dir = "down";

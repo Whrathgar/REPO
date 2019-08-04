@@ -1,4 +1,5 @@
 /// @desc give movement and slow over time
+randomize();
 x+=hsp;
 y+=vsp;
 

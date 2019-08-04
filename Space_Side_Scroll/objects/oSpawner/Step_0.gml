@@ -1,3 +1,4 @@
+randomize();
 spn_time --
 if dir == "down"
 {
@@ -16,10 +17,11 @@ if dir == "up"
 		dir = "down";
 	}	
 }
-
+var en_1 = oEnemy_1;
+var en_2 = oEnemy_2;
 if spn_time <= 0
 {
-	instance_create_layer(x,y,"Enemies",oEnemy_1);
-	spn_time = random_range(30,90);
+	instance_create_layer(x,y,"Enemies",choose(en_1,en_2));
+	spn_time = random_range(60,180);
 }
 show_debug_message(y);

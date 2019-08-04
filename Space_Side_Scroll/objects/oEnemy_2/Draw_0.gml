@@ -1,5 +1,5 @@
 draw_self();
-randomize();
+
 if (flash > 0)
 {
 	flash--;
