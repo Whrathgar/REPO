@@ -3,6 +3,7 @@
 randomize();
 image_xscale = -1
 x -= spd;
+y = ystart +sin(get_timer()/dip_)*dip_modifier;
 shoot_timer --
 if shoot_timer <= 0 && instance_exists(oPlayer) && point_direction(x,y,oPlayer.x,oPlayer.y) > 90 && point_direction(x,y,oPlayer.x,oPlayer.y) < 270
 {

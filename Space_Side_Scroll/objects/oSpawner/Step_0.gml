@@ -2,8 +2,8 @@ randomize();
 spn_time --
 if dir == "down"
 {
-	y += 5;
-	if y > room_height
+	y += 25;
+	if y > room_height - 25
 	{
 		dir = "up";
 	}
@@ -11,8 +11,8 @@ if dir == "down"
 
 if dir == "up"
 {
-	y -= 5;
-	if y < 0
+	y -= 25;
+	if y < 0 + 25
 	{
 		dir = "down";
 	}	

@@ -9,9 +9,10 @@ if ins_enemy
 //x += spd;
 //y += random_range(-.05,.05)
 
-
-x-= lengthdir_x(spd,direction);
-y-= lengthdir_y(spd,direction);
+x += spd
+y = ystart + sin(get_timer()/dip_)*dip_modifier
+//x-= lengthdir_x(spd,direction);
+//y-= lengthdir_y(spd,direction);
 
 if (x < -100) or (x > room_width + 100)
 {

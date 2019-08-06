@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0ac863dc-4501-4a73-abca-bcb0db0258aa",
+            "Value": {
+                "id": "556d06c8-fb34-48c3-8b24-9e841e2c7987",
+                "resourcePath": "sprites\\sBullet_E_2\\sBullet_E_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0d8fde2b-0d51-4a6d-8d9b-89d2e8ad304c",
             "Value": {
                 "id": "a4f8749e-79c2-48d0-bf43-fb56a5f680ae",
@@ -68,6 +76,14 @@
                 "id": "54642201-0c7c-407b-8a9d-76d994d9c16d",
                 "resourcePath": "sounds\\sndMusic_lv_1\\sndMusic_lv_1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "18f4c60c-6196-499c-8fdd-8c97e12b4162",
+            "Value": {
+                "id": "289d8cfd-42a5-40be-8806-3bde9a6d6317",
+                "resourcePath": "objects\\oBullet_E_2\\oBullet_E_2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -132,6 +148,14 @@
                 "id": "7e5c3357-e3d5-4b5f-904d-265c1f379db1",
                 "resourcePath": "objects\\oSpawner\\oSpawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3d8cb6e3-9bd2-4e0c-bc91-ac882d260bef",
+            "Value": {
+                "id": "e1de7cc5-4a9c-4708-99c9-7b8d56231af1",
+                "resourcePath": "sprites\\sBorder\\sBorder.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +319,14 @@
             }
         },
         {
+            "Key": "a7b08f22-a437-40ee-9b7d-021eca6f38cf",
+            "Value": {
+                "id": "c1243a11-e98f-4734-86cd-05a8719b3fd3",
+                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "ee81a5a0-c914-4bf1-9669-4e444c9b76a5",
@@ -372,6 +404,14 @@
                 "id": "037a3077-9850-4159-ae3d-94fb3b9e8629",
                 "resourcePath": "sprites\\sBullet_1\\sBullet_1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ee19ae16-3769-4e49-9eac-ad1ea62cde67",
+            "Value": {
+                "id": "e92445c1-d168-44ad-a095-1fd34077e162",
+                "resourcePath": "objects\\o_Border\\o_Border.yy",
+                "resourceType": "GMObject"
             }
         },
         {

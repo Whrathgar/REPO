@@ -9,8 +9,10 @@ if shoot_timer <= 0 && instance_exists(oPlayer) && point_direction(x,y,oPlayer.x
 	//instance_create_layer(x,y,"Instances",oBullet_E_1);
 	audio_sound_pitch(sndGun_1,choose(.8,1,1.2));
 	audio_play_sound(sndGun_1,1,false);
-	with (instance_create_layer(x,y,"Instances",oBullet_E_1))
+	with (instance_create_layer(x,y,"Instances",oBullet_E_2))
 	{
+	dip_ = other.bullet_dip;
+	dip_modifier = other.bullet_dip_mod;
 	direction = point_direction(other.x,other.y,oPlayer.x,oPlayer.y);
 	image_angle = direction;
 	}

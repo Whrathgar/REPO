@@ -61,6 +61,7 @@ if (keyboard_check(vk_space) or (mouse_check_button(mb_left))) && firingdelay <=
 	audio_sound_pitch(sndGun_1,choose(.8,1,1.2));
 	audio_play_sound(sndGun_1,1,false);
 	firingdelay = 5;
+	x = x - kickback
 }
 
 //Create engine trail
