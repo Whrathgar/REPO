@@ -24,4 +24,4 @@ if spn_time <= 0
 	instance_create_layer(x,y,"Enemies",choose(en_1,en_2));
 	spn_time = random_range(30,60);
 }
-show_debug_message(y);
+//show_debug_message(y);
