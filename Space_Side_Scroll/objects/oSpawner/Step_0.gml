@@ -22,6 +22,6 @@ var en_2 = oEnemy_2;
 if spn_time <= 0
 {
 	instance_create_layer(x,y,"Enemies",choose(en_1,en_2));
-	spn_time = random_range(60,180);
+	spn_time = random_range(30,60);
 }
 show_debug_message(y);
