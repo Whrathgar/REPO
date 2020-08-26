@@ -6,7 +6,8 @@ if ins_enemy_shield
 	instance_destroy();
 }
 
-
+if !instance_exists(oShield_P)
+{
 var ins_enemy = instance_place(x,y,oPlayer);
 if ins_enemy
 {
@@ -14,7 +15,7 @@ if ins_enemy
 	ins_enemy.flash = 3;
 	instance_destroy();
 }
-
+}
 //x += spd;
 //y += random_range(-.05,.05)
 
