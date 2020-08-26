@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "3bf54782-2388-445a-b283-941ecc2e6d2e",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
             "Key": "8a1997f4-6e87-484d-8ac3-5f96ad3555a2",
             "Value": {
                 "id": "4c4642e3-cb60-4feb-8be1-4d0833d89cb0",
@@ -175,11 +183,27 @@
             }
         },
         {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "bed6962e-0006-45ea-aa3f-92dac8e7f9e1",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
             "Key": "93956b4a-23a3-4d8b-b933-760ff910ff2e",
             "Value": {
                 "id": "4de3256d-c99d-43db-9852-fd18ddfa9178",
                 "resourcePath": "views\\93956b4a-23a3-4d8b-b933-760ff910ff2e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "1fcfad59-4a3a-43d8-adf8-94c4e6614a89",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
             }
         },
         {
@@ -228,6 +252,14 @@
                 "id": "bdf269af-6639-458f-aab9-16b1e08e7d7f",
                 "resourcePath": "views\\df9eb801-4ee5-4714-8980-12927ecf740d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "4bdc96f1-2a20-452a-9d73-a17b338fe48e",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
             }
         },
         {
