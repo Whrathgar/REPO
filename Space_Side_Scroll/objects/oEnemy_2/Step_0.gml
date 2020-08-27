@@ -24,3 +24,21 @@ with (instance_create_layer(x+35,y+random_range(-2,2),"Enemies",oAfterBurner_E1)
 {
 	vsp = 0
 }
+var ins_enemy_shield = instance_place(x,y,oShield_P);
+if ins_enemy_shield and ins_enemy_shield.flash <=0
+{
+	ins_enemy_shield.hp -= dmg;
+	ins_enemy_shield.flash = 30;
+	
+}
+
+if !instance_exists(oShield_P)
+{
+var ins_enemy = instance_place(x,y,oPlayer);
+if ins_enemy and ins_enemy.flash <=0
+{
+	ins_enemy.hp -= dmg;
+	ins_enemy.flash = 30;
+	
+}
+}

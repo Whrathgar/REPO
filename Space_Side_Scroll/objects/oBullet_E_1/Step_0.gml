@@ -2,7 +2,7 @@ var ins_enemy_shield = instance_place(x,y,oShield_P);
 if ins_enemy_shield
 {
 	ins_enemy_shield.hp -= dmg;
-	ins_enemy_shield.flash = 3;
+	ins_enemy_shield.flash = 30;
 	instance_destroy();
 }
 
@@ -12,7 +12,7 @@ var ins_enemy = instance_place(x,y,oPlayer);
 if ins_enemy
 {
 	ins_enemy.hp -= dmg;
-	ins_enemy.flash = 3;
+	ins_enemy.flash = 30;
 	instance_destroy();
 }
 }

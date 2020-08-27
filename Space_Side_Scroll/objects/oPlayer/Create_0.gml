@@ -7,3 +7,4 @@ hascontrol = true;
 flash = 0;
 firingdelay = 0;
 kickback = 5;
+shader_on = false;
