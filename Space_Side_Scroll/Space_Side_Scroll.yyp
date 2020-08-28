@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "8745d19d-cd6d-4bb4-a623-e6ad785f2e20",
+            "Value": {
+                "id": "9aa1bcf9-940e-4528-914b-fe9c8cb14541",
+                "resourcePath": "sprites\\sShieldBubble_Burst\\sShieldBubble_Burst.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "88272840-5705-4ec5-b49d-5644907db8b8",
             "Value": {
                 "id": "1db5bdbd-beaa-4d72-aa9f-ff9620768048",
@@ -356,6 +364,14 @@
                 "id": "ee81a5a0-c914-4bf1-9669-4e444c9b76a5",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ae5364c6-593e-48f6-b623-759e56ebdd30",
+            "Value": {
+                "id": "8fbf6b2a-9129-44cc-9656-15a50dd929b3",
+                "resourcePath": "objects\\oShieldP_Breaks\\oShieldP_Breaks.yy",
+                "resourceType": "GMObject"
             }
         },
         {

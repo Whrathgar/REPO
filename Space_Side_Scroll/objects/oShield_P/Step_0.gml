@@ -10,5 +10,6 @@ if dmg_time > 0
 
 if hp <= 0
 {
+	instance_create_layer(x=oPlayer.x+8, y=oPlayer.y, "Player", oShieldP_Breaks)
 	instance_destroy()
 }
