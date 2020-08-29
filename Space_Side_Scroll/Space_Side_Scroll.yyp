@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "5f1986d9-3be3-4601-872b-fbc1698c5acc",
+            "Value": {
+                "id": "21a2480c-0d54-4791-959e-1da6187d5efe",
+                "resourcePath": "objects\\oOrbit\\oOrbit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6192250e-c755-4404-a6c4-26f6fa0f62dc",
             "Value": {
                 "id": "4ec55ebd-a034-4b1b-8804-019e195696f1",
@@ -396,6 +404,14 @@
                 "id": "e8e95c8d-23b9-4f21-90c8-759acfcbb159",
                 "resourcePath": "sounds\\sndExplo_1\\sndExplo_1.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "9b620cb9-5b53-4c89-83df-1500e59a8e8f",
+            "Value": {
+                "id": "a63c8d62-dea1-4d3f-8965-1873933b7868",
+                "resourcePath": "sprites\\sOrbit\\sOrbit.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
