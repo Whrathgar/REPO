@@ -16,6 +16,7 @@ if(hp <= 0)
 			}
 		audio_sound_pitch(sndExplo_1,choose(.8,1,1.2));
 		audio_play_sound(sndExplo_1,1,false);
+		shockwave_create_layer(oPlayer.x, oPlayer.y, "Player", -1, 64, 500, 5, 90, 250)
 		instance_destroy();
 	}
 

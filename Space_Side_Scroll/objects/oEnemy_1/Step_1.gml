@@ -16,6 +16,7 @@ if hp <= 0
 	}
 	audio_sound_pitch(sndExplo_1,choose(.5,1,1.5));
 	audio_play_sound(sndExplo_1,1,false);
+	shockwave_create_layer(x, y, "Enemies", -1, 64, 75, 5, 90, 50)
 	instance_destroy();
 }
 
