@@ -1,7 +1,7 @@
 /// @description Variables
 dmg = 3;
 spd = 4;
-
+begin_move = 0;
 
 
 

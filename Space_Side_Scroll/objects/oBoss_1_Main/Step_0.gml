@@ -1,4 +1,9 @@
 /// @description move and dmg player
+if begin_move < 210
+{
+x = x - 2
+begin_move ++
+}
 
 ///DMG player if touch player
 var ins_enemy_shield = instance_place(x,y,oShield_P);
