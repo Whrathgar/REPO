@@ -22,6 +22,7 @@
     {"id":{"name":"sndExplo_1","path":"sounds/sndExplo_1/sndExplo_1.yy",},"order":1,},
     {"id":{"name":"sndMusic_lv_1","path":"sounds/sndMusic_lv_1/sndMusic_lv_1.yy",},"order":3,},
     {"id":{"name":"sndGun_1","path":"sounds/sndGun_1/sndGun_1.yy",},"order":5,},
+    {"id":{"name":"oUpgrade_Spread","path":"objects/oUpgrade_Spread/oUpgrade_Spread.yy",},"order":38,},
     {"id":{"name":"shockwave_create_layer","path":"scripts/shockwave_create_layer/shockwave_create_layer.yy",},"order":1,},
     {"id":{"name":"shockwave_create_depth","path":"scripts/shockwave_create_depth/shockwave_create_depth.yy",},"order":3,},
     {"id":{"name":"shockwave_draw","path":"scripts/shockwave_draw/shockwave_draw.yy",},"order":5,},
