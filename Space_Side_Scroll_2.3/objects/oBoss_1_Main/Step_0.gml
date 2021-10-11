@@ -1,8 +1,71 @@
 /// @description move and dmg player
-if begin_move < 210
+
+image_xscale = -1
+
+if begin_move1 < 105 and Alarm_1 == true
 {
 x = x - 2
-begin_move ++
+begin_move1 ++
+	if begin_move1 >= 105
+	{
+	Alarm_1 = false
+	Alarm_2 = true
+	begin_move2 = 0
+	}
+}
+
+
+
+if Alarm_2 == true
+{
+x = x - 2
+y = y - 3
+begin_move2 ++
+if begin_move2 >= 105
+	{
+	Alarm_2 = false
+	Alarm_3 = true
+	begin_move3 = 0
+	}
+}
+
+if Alarm_3 == true
+{
+x = x - 2
+y = y + 3
+begin_move3 ++
+if begin_move3 >= 105
+	{
+	Alarm_3 = false
+	Alarm_4 = true
+	begin_move4 = 0
+	}
+}
+
+if Alarm_4 == true
+{
+x = x + 2
+y = y + 3
+begin_move4 ++
+if begin_move4 >= 105
+	{
+	Alarm_4 = false
+	Alarm_5 = true
+	begin_move5 = 0
+	}
+}
+
+if Alarm_5 == true
+{
+x = x + 2
+y = y - 3
+begin_move5 ++
+if begin_move5 >= 105
+	{
+	Alarm_5 = false
+	Alarm_2 = true
+	begin_move2 = 0
+	}
 }
 
 ///DMG player if touch player

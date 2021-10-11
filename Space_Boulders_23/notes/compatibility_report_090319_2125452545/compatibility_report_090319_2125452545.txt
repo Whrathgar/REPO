@@ -1,0 +1,23 @@
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+!!! Font fnt_small font family OCR A Extended is installed but couldn't match style - Font has NOT been regenerated
+!!! Font fnt_large font family OCR A Extended is installed but couldn't match style - Font has NOT been regenerated
+Converting GML script: ${project_dir}\objects\obj_Asteroid_s\Destroy_0.gml
+Converted description /// @description Nothing
+
+Missing audiogroup for sound: 'snd_Shoot' - setting to default audio group
+Missing audiogroup for sound: 'snd_PlayerExplode_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_PlayerExplode_2' - setting to default audio group
+Missing audiogroup for sound: 'snd_PlayerExplode_3' - setting to default audio group
+Missing audiogroup for sound: 'snd_Astroid_Explode_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_Astroid_Explode_2' - setting to default audio group
+Missing audiogroup for sound: 'snd_Astroid_S_Explode_1' - setting to default audio group
+Missing audiogroup for sound: 'snd_Astroid_S_Explode_2' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_wrap.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

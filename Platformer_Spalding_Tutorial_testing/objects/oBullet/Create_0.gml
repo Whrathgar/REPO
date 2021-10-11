@@ -1,0 +1,2 @@
+/// @desc Create Flash
+instance_create_layer(x + lengthdir_x(25,point_direction(oGun.x,oGun.y,mouse_x,mouse_y)),y + lengthdir_y(25,point_direction(oGun.x,oGun.y,mouse_x,mouse_y)),"Bullets",oBulletFlash);
