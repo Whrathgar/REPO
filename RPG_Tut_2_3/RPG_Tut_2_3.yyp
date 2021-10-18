@@ -13,6 +13,8 @@
     {"id":{"name":"spr_Dungeon_Tiles","path":"sprites/spr_Dungeon_Tiles/spr_Dungeon_Tiles.yy",},"order":0,},
     {"id":{"name":"rm_Village_Template","path":"rooms/rm_Village_Template/rm_Village_Template.yy",},"order":2,},
     {"id":{"name":"spr_Water_World","path":"sprites/spr_Water_World/spr_Water_World.yy",},"order":0,},
+    {"id":{"name":"ts_Dungeon","path":"tilesets/ts_Dungeon/ts_Dungeon.yy",},"order":2,},
+    {"id":{"name":"rm_Dungeon","path":"rooms/rm_Dungeon/rm_Dungeon.yy",},"order":6,},
     {"id":{"name":"rm_Parent","path":"rooms/rm_Parent/rm_Parent.yy",},"order":0,},
   ],
   "Options": [
@@ -40,6 +42,7 @@
     {"roomId":{"name":"rm_Dungeon_Template","path":"rooms/rm_Dungeon_Template/rm_Dungeon_Template.yy",},},
     {"roomId":{"name":"rm_World","path":"rooms/rm_World/rm_World.yy",},},
     {"roomId":{"name":"rm_Village","path":"rooms/rm_Village/rm_Village.yy",},},
+    {"roomId":{"name":"rm_Dungeon","path":"rooms/rm_Dungeon/rm_Dungeon.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
