@@ -37,11 +37,11 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"rm_Parent","path":"rooms/rm_Parent/rm_Parent.yy",},},
+    {"roomId":{"name":"rm_World","path":"rooms/rm_World/rm_World.yy",},},
+    {"roomId":{"name":"rm_Village","path":"rooms/rm_Village/rm_Village.yy",},},
     {"roomId":{"name":"rm_World_Template","path":"rooms/rm_World_Template/rm_World_Template.yy",},},
     {"roomId":{"name":"rm_Village_Template","path":"rooms/rm_Village_Template/rm_Village_Template.yy",},},
     {"roomId":{"name":"rm_Dungeon_Template","path":"rooms/rm_Dungeon_Template/rm_Dungeon_Template.yy",},},
-    {"roomId":{"name":"rm_World","path":"rooms/rm_World/rm_World.yy",},},
-    {"roomId":{"name":"rm_Village","path":"rooms/rm_Village/rm_Village.yy",},},
     {"roomId":{"name":"rm_Dungeon","path":"rooms/rm_Dungeon/rm_Dungeon.yy",},},
   ],
   "Folders": [
