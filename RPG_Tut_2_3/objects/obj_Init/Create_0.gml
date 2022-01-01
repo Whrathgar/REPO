@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+
 #macro GRID_SIZE = 16;
 
 
@@ -24,3 +23,4 @@ global.SHOULDER_L = false;
 
 #endregion
 
+room_goto(rm_Village);

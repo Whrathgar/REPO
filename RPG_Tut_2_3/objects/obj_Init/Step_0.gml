@@ -12,7 +12,7 @@ if(gamepad_button_check(0, gp_padd)) ||
 (keyboard_check(ord("S"))){
 	global.HELD_D = true;
 }else{
-	global.HELD_S = false;
+	global.HELD_D = false;
 }
 
 if(gamepad_button_check(0, gp_padl)) ||
